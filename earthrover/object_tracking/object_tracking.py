@@ -23,6 +23,7 @@ import sys
 sys.path.insert(0, '/var/www/html/earthrover')
 ut.init_gpio()
 
+
 cap = cv2.VideoCapture(0)
 threshold = 0.2
 top_k = 5  # number of objects to be shown as detected
